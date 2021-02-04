@@ -1,0 +1,91 @@
+// about
+.about{
+    padding: 0.5% 0 1% 1%;
+    border-bottom: 1px solid #ccc;
+    a{
+        font : 400 10px/10px 'Noto Sans KR', sans-serif;
+        color: #000;
+    }
+}
+
+// layout-header
+.layout-header{
+    position: relative;
+    text-align: center;
+    .layout-header__container{
+        @media screen and (min-width: 768px) {
+        }
+        width: 100%;
+        margin: 0 auto;
+        .layout-header__wrapper{
+            display: none;
+            text-align: center;
+            padding: 1.5rem 0;
+            &.active{
+                display: block;
+            }
+            .layout-header__wrapper__item{
+                display: inline-block;
+                margin: 0 0.5rem;
+                a{
+                    font : 400 16px/16px 'Noto Sans KR', sans-serif;
+                    color: #000;
+                }
+                &.active{
+                    a{
+                        color: rgb(228, 67, 18);
+                    }
+                }
+            }
+        }
+    }
+    .switch-button{
+        width: 30%;
+        margin: 0 auto;
+        text-align: center;
+        img{
+            width: 70px;
+            @media screen and (max-width: 414px) {
+                width: 50%;
+            }
+        }
+    }
+}
+.content-frame{
+    position: relative;
+    border: 0 solid #e8e8e8;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    .content-frame__container{
+        position: relative;
+        height: auto;
+        &.content-frame__container::-webkit-scrollbar{
+            width: 3px; height: auto;
+        }
+        &.content-frame__container::-webkit-scrollbar-thumb{
+          background: #999;
+        }
+    }
+    &.mobile{
+        width: 375px;
+        @media screen and (max-width: 414px) {
+            width: 100%;
+            border: 0;
+            &::before{
+                display: none;
+            }
+            &::after{
+                display: none;
+            }
+        }
+        &::before{
+            background: #111;
+        }
+        &::after{
+            background: #333;
+        }
+        .content-frame__container{
+        }
+    }
+}

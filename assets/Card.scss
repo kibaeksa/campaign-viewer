@@ -1,0 +1,65 @@
+.card{
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translate3d(-100%,0,0);
+  -webkit-transform: translate3d(-100%,0,0);
+  width: auto;
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 99;
+  border: 1px solid #ccc;
+  &.active{
+    transform: translate3d(0px, 0px, 0px);
+  }
+  >div{
+    position: relative;
+    .card__wrapper{
+      position: relative;
+      overflow-y: scroll;
+      padding: 0.5rem;
+      height: 180px;
+      -ms-overflow-style: none;
+      &.card__wrapper::-webkit-scrollbar{
+        width: 3px; height: auto;
+      }
+      &.card__wrapper::-webkit-scrollbar-thumb{
+        background: #999;
+      }
+      >div{
+        padding: 0.2rem 0;
+        >span, >div{
+          cursor: pointer;
+        }
+        .campaign-name{
+          display: inline-block;
+          font: 400 12px/12px 'Noto Sans KR', sans-serif;
+          padding: 5px 0;
+        }
+        &:last-child{
+          border: 0;
+        }
+      }
+    }
+    .toggleButton{
+      position: absolute;
+      top: -1px;
+      right: 0;
+      transform: translate3d(100%,0,0);
+      -webkit-transform: translate3d(100%,0,0);
+      border: 1px solid #ccc;
+      border-radius: 0 8% 8% 0;
+      background: #fff;
+      a{
+        display: inline-block;
+        padding: 0.75rem;
+        font: 400 12px/16px 'Noto Sans KR', sans-serif;
+        color: #111;
+      }
+    }
+    button.custom-button{
+      display: none;
+    }
+  }
+
+}

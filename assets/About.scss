@@ -1,0 +1,14 @@
+.about{
+    padding: 20px;
+    .about-head{
+        font : 900 14px/14px 'Noto Sans KR', sans-serif;
+        color: #000;
+    }
+    ul.about-ul{
+        display: block;
+        padding: 5px 10px;
+        li{
+            line-height: 20px;
+        }
+    }
+}

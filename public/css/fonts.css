@@ -1,0 +1,128 @@
+/* 리복 모바일 폰트 */
+
+@font-face{
+	font-family: 'NotoSansKR';
+	font-weight: 100;
+	font-style: normal;
+	src: url('//imagem.adidas.co.kr/fonts/NotoSansKr/woff/NotoSansKr-thin.woff') format('woff');
+}
+
+@font-face{
+	font-family: 'NotoSansKR';
+	font-weight: 300;
+	font-style: normal;
+	src: url('//imagem.adidas.co.kr/fonts/NotoSansKr/woff/NotoSansKr-light.woff') format('woff');
+}
+
+@font-face{
+	font-family: 'NotoSansKR';
+	font-weight: 400;
+	font-style: normal;
+	src: url('//imagem.adidas.co.kr/fonts/NotoSansKr/woff/NotoSansKr-regular.woff') format('woff');
+}
+
+@font-face{
+	font-family: 'NotoSansKR';
+	font-weight: 500;
+	font-style: normal;
+	src: url('//imagem.adidas.co.kr/fonts/NotoSansKr/woff/NotoSansKr-medium.woff') format('woff');
+}
+
+@font-face{
+	font-family: 'NotoSansKR';
+	font-weight: 700;
+	font-style: normal;
+	src: url('//imagem.adidas.co.kr/fonts/NotoSansKr/woff/NotoSansKr-bold.woff') format('woff');
+}
+
+@font-face{
+	font-family: 'NotoSansKR';
+	font-weight: 900;
+	font-style: normal;
+	src: url('//imagem.adidas.co.kr/fonts/NotoSansKr/woff/NotoSansKr-black.woff') format('woff');
+}
+
+
+
+@font-face {
+	font-family: 'adinenuPro-black';
+	src: url('//imagem.adidas.co.kr/fonts/adineuePro/woff/adineuePRO-Black.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'adinenuPro-bold';
+	src: url('//imagem.adidas.co.kr/fonts/adineuePro/woff/adineuePRO-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'adinenuPro-regular';
+	src: url('//imagem.adidas.co.kr/fonts/adineuePro/woff/adineuePRO-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'adinenuPro-light';
+	src: url('//imagem.adidas.co.kr/fonts/adineuePro/woff/adineuePRO-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'adihaus';
+	src: url('//imagem.adidas.co.kr/fonts/adihaus/ADIHRG.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'adihaus-bold';
+	src: url('//imagem.adidas.co.kr/fonts/adihaus/ADIHDB.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'adihaus-it';
+	src: url('//imagem.adidas.co.kr/fonts/adihaus/ADIHRGIT.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'adihaus-it-bold';
+	src: url('//imagem.adidas.co.kr/fonts/adihaus/ADIHBDIT.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'AdihausDIN-Bold';
+	src: url('//imagem.adidas.co.kr/fonts/adihausDIN/woff/AdihausDIN-Bold_0.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'AdihausDIN';
+	src: url('//imagem.adidas.co.kr/fonts/adihausDIN/woff/adihausregular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'AdihausDIN-Cond';
+	src: url('//imagem.adidas.co.kr/fonts/adihausDIN/woff/AdihausDIN-Cond_0.woff') format('woff');
+	font-weight:'normal';
+}
+
+@font-face {
+	font-family: 'AdihausDIN-Cond';
+	src: url('//imagem.adidas.co.kr/fonts/adihausDIN/woff/AdihausDIN-CondBold.woff') format('woff');
+	font-weight:'bold';
+}
+
+@font-face {
+	font-family: 'AdihausDIN-Cond';
+	src: url('//imagem.adidas.co.kr/fonts/adihausDIN/woff/AdihausDIN-CondBoldIta.woff') format('woff');
+	font-weight:'bold';
+	font-style:'italic';
+}
+
+@font-face {
+	font-family: 'AdihausDIN-Cond';
+	src: url('//imagem.adidas.co.kr/fonts/adihausDIN/woff/AdihausDIN-CondMedium.woff') format('woff');
+	font-weight:'normal';
+	font-style:'italic';
+}
+
+@font-face {
+    font-family: 'adiPictoRegularKo';
+    src:url('//imagem.adidas.co.kr/fonts/adipictos/adipictos-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,43 @@
+.navigation__container{
+  border-bottom: 1px solid #ccc;
+  form{
+    padding: 2rem 0;
+    .send-data{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      >input{
+        font : 400 10px/10px 'Noto Sans KR', sans-serif !important;
+        color: currentColor !important;
+        width: 100% !important;
+        border: 0 !important;
+        height: 1.1876em !important;
+        margin: 0 !important;
+        display: block !important;
+        padding: 6px 0 7px !important;
+        min-width: 0 !important;
+        background: none !important;
+        box-sizing: content-box !important;
+        animation-name: mui-auto-fill-cancel !important;
+        letter-spacing: inherit !important;
+        animation-duration: 10ms !important;
+        -webkit-tap-highlight-color: transparent !important;
+      }
+      >button{
+        margin-left: 0.5rem;
+        background: #1976d2;
+        span{
+          font: 700 12px/1.75 'Noto Sans KR', sans-serif;
+          
+        }
+        &:hover{
+          background: #115293;
+        }
+      }
+      // .year{
+      //   display: block;
+      //   margin: 15px 0 10px 0;
+      // }
+    }
+  }
+}

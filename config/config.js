@@ -1,0 +1,1 @@
+export const backUrl = process.env.NODE_ENV === 'production' ? 'https://campaign-viewer-server.herokuapp.com' : 'http://localhost:3065';
