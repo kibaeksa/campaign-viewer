@@ -4,9 +4,6 @@
 a{
 	text-decoration: none; letter-spacing: 0em;
 }
-a:visited{
-	color: #000;
-}
 ul,ol{
 	list-style: none;
 }

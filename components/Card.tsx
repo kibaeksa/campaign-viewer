@@ -34,7 +34,7 @@ const Card = () => {
     }
   },[ toggle ])
   useEffect(debounce(() => {
-    // console.log(search);
+    console.log(list);
     if( search ) {
       dispatch(searchCampaignRequestAction( search ));
     }

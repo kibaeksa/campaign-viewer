@@ -127,7 +127,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux_saga__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(redux_saga__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _store_configureStore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../store/configureStore */ "./store/configureStore.ts");
 /* harmony import */ var _reducers_post_actions__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../reducers/post/actions */ "./reducers/post/actions.ts");
-var _jsxFileName = "D:\\work_files\\campaign-viewer\\front\\pages\\index.tsx";
+var _jsxFileName = "C:\\Users\\Admins\\Desktop\\campaign-viewer\\front\\pages\\index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
 
 
